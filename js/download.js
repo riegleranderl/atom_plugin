@@ -118649,7 +118649,7 @@ link.click();
 
 function changeColor (_key) {
 var _data = baseToArrayBuffer(data);
-saveByteArray("atom_module", _data);
+saveByteArray("atom_module.zip", _data);
 }
 
 function base64ToArrayBuffer(base64) {
